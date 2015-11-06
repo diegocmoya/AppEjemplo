@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_toolbar"
+        android:background="@color/accent_material_dark"></android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MainDrawer"
+        android:layout_below="@+id/main_toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content_frame"
+            tools:context=".MainActivity"
+            android:background="@android:color/transparent"
+            >
+
+
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:id="@+id/main_list"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@color/material_deep_teal_500"
+            android:dividerHeight="2dp"></ListView>
+
+
+
+        </android.support.v4.widget.DrawerLayout>
+
+
+</RelativeLayout>
