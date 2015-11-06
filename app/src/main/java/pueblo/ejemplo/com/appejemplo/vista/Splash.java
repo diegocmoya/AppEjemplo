@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import pueblo.ejemplo.com.appejemplo.R;
+import pueblo.ejemplo.com.appejemplo.RegistroUsuarioActivity;
 
 /**
  * Created by Diego castro on 23/10/2015.
@@ -31,7 +32,7 @@ public class Splash extends AppCompatActivity {
                     exeption.printStackTrace();
                 }
                 finally {
-                    Intent intent = new Intent(Splash.this,MainActivity.class);
+                    Intent intent = new Intent(Splash.this,RegistroUsuarioActivity.class);
                     startActivity(intent);
                 }
             }

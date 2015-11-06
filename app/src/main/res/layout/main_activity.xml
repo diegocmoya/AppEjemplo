@@ -9,7 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/main_toolbar"
-        android:background="@color/accent_material_dark"></android.support.v7.widget.Toolbar>
+        android:background="@color/accent_material_dark">
+
+    </android.support.v7.widget.Toolbar>
 
     <android.support.v4.widget.DrawerLayout
         android:layout_width="match_parent"
@@ -35,7 +37,9 @@
             android:layout_gravity="start"
             android:choiceMode="singleChoice"
             android:divider="@color/material_deep_teal_500"
-            android:dividerHeight="2dp"></ListView>
+            android:dividerHeight="2dp">
+
+        </ListView>
 
 
 
